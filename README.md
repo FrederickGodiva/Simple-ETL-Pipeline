@@ -126,9 +126,9 @@ This project is a simple ETL (Extract, Transform, Load) pipeline built with Pyth
 
 10. Exit the virtual environment
 
-   ```bash
-   deactivate
-   ```
+    ```bash
+    deactivate
+    ```
    
 ---
 
