@@ -88,7 +88,13 @@ This project is a simple ETL (Extract, Transform, Load) pipeline built with Pyth
    pip install -r requirements.txt
    ```
 
-6. Run the ETL pipeline
+6. Prepare .env file configuration
+
+   ```bash
+   cp .env.example .env
+   ```
+
+7. Run the ETL pipeline
 
    Linux / Mac:
    ```bash
@@ -100,7 +106,7 @@ This project is a simple ETL (Extract, Transform, Load) pipeline built with Pyth
     python main.py
     ```
 
-7. Run the unit tests
+8. Run the unit tests
 
    Linux / Mac:
    ```bash
@@ -112,13 +118,13 @@ This project is a simple ETL (Extract, Transform, Load) pipeline built with Pyth
    python -m pytest tests
    ```
    
-8. Run the test coverage report
+9. Run the test coverage report
 
     ```bash
     pytest --cov=utils --cov-report=html tests/
     ``` 
 
-9. Exit the virtual environment
+10. Exit the virtual environment
 
    ```bash
    deactivate
