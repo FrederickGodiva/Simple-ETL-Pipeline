@@ -123,3 +123,7 @@ This project is a simple ETL (Extract, Transform, Load) pipeline built with Pyth
    ```bash
    deactivate
    ```
+   
+---
+
+Copyright © 2025 - Frederick Godiva
